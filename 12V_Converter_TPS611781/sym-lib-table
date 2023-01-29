@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "2023-01-28_06-28-21")(type "Legacy")(uri "C:/Users/benml/Downloads/ul_LM51561DSSR/KiCAD/2023-01-28_06-28-21/2023-01-28_06-28-21.lib")(options "")(descr ""))
+  (lib (name "2023-01-28_07-07-28")(type "Legacy")(uri "C:/Users/benml/Downloads/ul_CSD17308Q3T/KiCAD/2023-01-28_07-07-28/2023-01-28_07-07-28.lib")(options "")(descr ""))
+  (lib (name "2023-01-28_09-09-56")(type "Legacy")(uri "C:/Users/benml/Downloads/ul_MSS1260-153MLB/KiCAD/2023-01-28_09-09-56/2023-01-28_09-09-56.lib")(options "")(descr ""))
+)
