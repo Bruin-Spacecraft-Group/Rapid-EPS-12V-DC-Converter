@@ -376,7 +376,7 @@
     (property "Sheetname" "")
     (path "/00c5f14c-7c01-4b6c-82f1-45036644e627")
     (attr smd)
-    (fp_text reference "Cin1" (at 0 -1.85 90) (layer "F.SilkS")
+    (fp_text reference "Cin1" (at 0 -1.85 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3e4bb4e3-52a6-4e56-b53d-cf6950505971)
     )
@@ -1469,6 +1469,7 @@
     )
   )
 
+  (gr_rect (start 57.785 95.504) (end 96.52 122.682) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp 9b8e3fa1-0deb-4d6b-bf09-4c8be0f15ddc))
   (gr_text "Vout 12V" (at 69.469 120.777) (layer "F.SilkS") (tstamp 73aa7b04-8e23-4894-ae49-7905fbd06694)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
