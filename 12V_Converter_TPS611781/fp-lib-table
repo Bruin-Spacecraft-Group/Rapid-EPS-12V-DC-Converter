@@ -2,4 +2,7 @@
   (lib (name "MSS1260-153MLB")(type "KiCad")(uri "C:/Users/benml/Downloads/ul_MSS1260-153MLB/KiCAD/2023-01-28_09-09-56/footprints.pretty")(options "")(descr ""))
   (lib (name "CSD17308Q3T")(type "KiCad")(uri "C:/Users/benml/Downloads/ul_CSD17308Q3T/KiCAD/2023-01-28_07-07-28/footprints.pretty")(options "")(descr ""))
   (lib (name "LM51561DSSR")(type "KiCad")(uri "C:/Users/benml/Downloads/ul_LM51561DSSR/KiCAD/2023-01-28_06-28-21/footprints.pretty")(options "")(descr ""))
+  (lib (name "IC")(type "KiCad")(uri "${KIPRJMOD}/Imported libraries/ul_LM51561HPWPR/KiCAD/2023-01-29_23-53-00/footprints.pretty")(options "")(descr ""))
+  (lib (name "N MOSFET")(type "KiCad")(uri "${KIPRJMOD}/Imported libraries/ul_IQE050N08NM5CGATMA1/KiCAD/2023-01-30_00-16-33/footprints.pretty")(options "")(descr ""))
+  (lib (name "inductor")(type "KiCad")(uri "${KIPRJMOD}/Imported libraries/7443551151/2023-01-30_01-28-52/footprints.pretty")(options "")(descr ""))
 )
