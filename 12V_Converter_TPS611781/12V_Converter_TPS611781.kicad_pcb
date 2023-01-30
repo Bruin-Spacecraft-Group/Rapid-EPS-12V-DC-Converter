@@ -1557,7 +1557,7 @@
   (gr_text "Vout 12V" (at 69.469 122.047) (layer "F.SilkS") (tstamp 73aa7b04-8e23-4894-ae49-7905fbd06694)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "GND" (at 82.296 101.219) (layer "F.SilkS") (tstamp bafecbf9-c1ef-4afe-866b-03e39f456a7a)
+  (gr_text "GND" (at 79.1972 101.0412) (layer "F.SilkS") (tstamp bafecbf9-c1ef-4afe-866b-03e39f456a7a)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text "UVLO" (at 86.741 97.917) (layer "F.SilkS") (tstamp d4955985-37e0-44d0-bb86-332207433bcc)
