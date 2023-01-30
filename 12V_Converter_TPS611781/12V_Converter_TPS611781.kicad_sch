@@ -1431,7 +1431,7 @@
   (symbol (lib_id "Device:C_Small") (at 189.23 41.91 180) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 3703e8ca-52d6-47b5-89dc-0036da78ad40)
-    (property "Reference" "Cout?" (id 0) (at 191.77 40.6335 0)
+    (property "Reference" "Cout3" (id 0) (at 191.77 40.6335 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "22uF" (id 1) (at 191.77 43.1735 0)
@@ -1583,7 +1583,7 @@
   (symbol (lib_id "Device:C_Small") (at 185.42 41.91 180) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 733d0373-1ccd-42a3-952a-0ab52ee861ad)
-    (property "Reference" "Cout?" (id 0) (at 187.96 40.6335 0)
+    (property "Reference" "Cout2" (id 0) (at 187.96 40.6335 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "22uF" (id 1) (at 187.96 43.1735 0)
@@ -1915,11 +1915,11 @@
     (path "/ddea216b-a89e-4694-9d5e-d599db658feb"
       (reference "Cout1") (unit 1) (value "22uF") (footprint "Capacitor_SMD:C_1210_3225Metric")
     )
-    (path "/3703e8ca-52d6-47b5-89dc-0036da78ad40"
-      (reference "Cout?") (unit 1) (value "22uF") (footprint "Capacitor_SMD:C_1210_3225Metric")
-    )
     (path "/733d0373-1ccd-42a3-952a-0ab52ee861ad"
-      (reference "Cout?") (unit 1) (value "22uF") (footprint "Capacitor_SMD:C_1210_3225Metric")
+      (reference "Cout2") (unit 1) (value "22uF") (footprint "Capacitor_SMD:C_1210_3225Metric")
+    )
+    (path "/3703e8ca-52d6-47b5-89dc-0036da78ad40"
+      (reference "Cout3") (unit 1) (value "22uF") (footprint "Capacitor_SMD:C_1210_3225Metric")
     )
     (path "/99d7bd64-3387-4e95-847c-2de548d59b02"
       (reference "Coutx1") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
