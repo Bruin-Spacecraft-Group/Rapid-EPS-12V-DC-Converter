@@ -1,3 +1,4 @@
+------------------------------
 custom from webench:
 
 n-mosfet: 60V for radiation:
@@ -8,3 +9,13 @@ HCMA1707-330-R
 
 capacitor - Cout (in place of the polarized one on webench):
 anything 0603
+
+------------------------------
+components not available for PICK-N-PLACE:
+- Cvcc
+- Css
+- L1
+- Ccomp
+- Rsense
+- U1
+- Cout
