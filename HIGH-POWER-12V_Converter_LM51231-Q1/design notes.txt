@@ -1,0 +1,10 @@
+custom from webench:
+
+n-mosfet: 60V for radiation:
+SIR180DP-T1-RE3
+
+inductor: 2.2u,
+HCMA1707-330-R
+
+capacitor - Cout (in place of the polarized one on webench):
+anything 0603

@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "Converter IC")(type "Legacy")(uri "D:/Ian_Lee/Documents/RAPID GITHUB/Rapid-EPS-12V-DC-Converter/HIGH-POWER-12V_Converter_LM51231-Q1/imported libraries/ul_LM51521QRGRRQ1/KiCAD/2023-03-06_09-49-05/2023-03-06_09-49-05.lib")(options "")(descr ""))
+  (lib (name "N-MOS")(type "Legacy")(uri "D:/Ian_Lee/Documents/RAPID GITHUB/Rapid-EPS-12V-DC-Converter/HIGH-POWER-12V_Converter_LM51231-Q1/imported libraries/ul_SIR826ADP-T1-GE3/KiCAD/2023-03-06_10-14-18/2023-03-06_10-14-18.lib")(options "")(descr ""))
+  (lib (name "Inductor")(type "Legacy")(uri "D:/Ian_Lee/Documents/RAPID GITHUB/Rapid-EPS-12V-DC-Converter/HIGH-POWER-12V_Converter_LM51231-Q1/imported libraries/ul_HCMA1707-330-R/KiCAD/2023-03-06_20-36-00/2023-03-06_20-36-00.lib")(options "")(descr ""))
+)
