@@ -19,3 +19,5 @@ components not available for PICK-N-PLACE:
 - Rsense
 - U1
 - Cout
+- L1
+- Mosfets
