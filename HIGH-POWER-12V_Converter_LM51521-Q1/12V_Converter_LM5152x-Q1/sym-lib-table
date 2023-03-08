@@ -1,6 +1,0 @@
-(sym_lib_table
-  (lib (name "Converter IC")(type "Legacy")(uri "/Users/madcloud123/Documents/GitHub/Rapid-EPS-12V-DC-Converter/HIGH-POWER-12V_Converter_LM51231-Q1/imported libraries/ul_LM51521QRGRRQ1/KiCAD/2023-03-06_09-49-05/2023-03-06_09-49-05.lib")(options "")(descr ""))
-  (lib (name "N-MOS")(type "Legacy")(uri "/Users/madcloud123/Documents/GitHub/Rapid-EPS-12V-DC-Converter/HIGH-POWER-12V_Converter_LM51231-Q1/imported libraries/ul_SIR826ADP-T1-GE3/KiCAD/2023-03-06_10-14-18/2023-03-06_10-14-18.lib")(options "")(descr ""))
-  (lib (name "Inductor2.2")(type "Legacy")(uri "/Users/madcloud123/Documents/GitHub/Rapid-EPS-12V-DC-Converter/HIGH-POWER-12V_Converter_LM51231-Q1/imported libraries/ul_inductorCORRECT/KiCAD/2023-03-07_23-47-33/2023-03-07_23-47-33.lib")(options "")(descr ""))
-  (lib (name "270u_cap")(type "Legacy")(uri "/Users/madcloud123/Documents/GitHub/Rapid-EPS-12V-DC-Converter/HIGH-POWER-12V_Converter_LM51231-Q1/imported libraries/270u_cap2/EEHZS1H271UP.lib")(options "")(descr ""))
-)
