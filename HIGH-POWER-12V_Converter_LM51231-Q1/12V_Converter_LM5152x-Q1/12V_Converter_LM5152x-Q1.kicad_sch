@@ -2083,7 +2083,7 @@
     (property "Reference" "L1" (id 0) (at 203.2 92.71 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Value" "2.2" (id 1) (at 203.2 96.52 0)
+    (property "Value" "2.2u" (id 1) (at 203.2 96.52 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Footprint" "inductor2.2:IHLP6767GZER2R2M51" (id 2) (at 202.565 107.569 0)
@@ -2328,7 +2328,7 @@
       (reference "Cvref1") (unit 1) (value "470p") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/cf998664-74b5-4732-a6f2-8ca78b745bd5"
-      (reference "L1") (unit 1) (value "2.2") (footprint "inductor2.2:IHLP6767GZER2R2M51")
+      (reference "L1") (unit 1) (value "2.2u") (footprint "inductor2.2:IHLP6767GZER2R2M51")
     )
     (path "/64391f12-acdd-4367-a4b2-5a471753d256"
       (reference "M1") (unit 1) (value "60V") (footprint "M1:TRANS_NVMFS5834NLWFT1G")
