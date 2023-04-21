@@ -1,10 +1,19 @@
  - M1 will be dissipating about 4W, as selected (by far the largest loss in the circuit, and enough to definitely make it hot without a bunch of effort into dissipation). Have you considered using the CSD18540Q5B that is in use for M2?
+	- replaced
  - pin 4 (status) is open-drain, connect a pullup resistor so you can actually read it
+	- will do in later revisions, also not decided on for any standard mcu pullups and very easily external
  - consider setting up the current sensing circuit in 10.2.2.1, it'll save about 0.2W (which isn't that much in the scheme of high power things that you're working with, but is a measurable amount, and avoiding this extra Pd will help with heat stuff)
+	- will do in later revisions if deemed necessary, keep items same / simple for determining failure cause
  - thermal pad is not connected to an analog ground plane, (or anything at all), this concerns me about head dissipation
+	- 
  - the area connected to the thermal pad on M1 seems sparing, i think the only reason that it's small on the example layout is that they have a separation channel between the input and ouput ground planes and want the inductor input to be coupled just to the net tie (but you don't have such a separation channel so you can lower ESR and improve thermals if you extend that area a bit)
+	- fixed
  - your inductor current is limited to 15A by the current sense resistor (ic kills it at 60mV CSP-CSN), but the RMS inductor current is higher than this for a battery voltage below 6.4V (and with ripple current, this is significantly exceeded): if you don't consider this in switching to a 10.2.2.1 circuit, consider dropping the shunt resistor to more like 2-2.5mOhms to prevent lockout
+	- switching to webench recommended 3mOhms, not even close to 60mV at 10A
  - consider improving the Cvcc, Cbias, and Chb placements by shrinking them a little and routing MODE to a divide-by-two resistor divider from Vin instead of to VCC
+	- no, keep prototype components easy to solder, shrinking those wouldn't move anything, and if they did it would be negligible anyways; keeping MODE to VCC as recommended by webench to avoid changing too many things
  - consider dropping a via from Cvout1 to the ground plane, its ESR is being increased by the trace over to a ground area (alternatively, just extend the ground area, but that's probably more difficult)
- - don't use vias to the CSP-RS connection to supply capacitors with power, it'll mess up the current sensing. also consider shielding the differential pair of traces with some ground on either side, like the datasheet recommends (or if space is prohibitive, at least put them next to each other and match their lengths; right now they're meandering a bit)
-
+	- ground area extended
+ - don't use vias to the CSP-RS connection to supply capacitors with power, it'll mess up the current sensing. also consider shielding the differential pair of traces with some ground on either side, like the datasheet recommends (or if space is prohibitive, at least put them next to each other and 
+match their lengths; right now they're meandering a bit)
+	- no more vias used than necessary, no internal layer so can't shield, they've been placed next to each other
